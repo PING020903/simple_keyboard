@@ -1,0 +1,13 @@
+CompileFlags:
+  Add:
+    - "-std=gnu99"
+    - "--target=x86_64-w64-mingw32"
+    - "-I=F:/cmake_study/simple_keyboard/include"
+    - "-I=F:/cmake_study/simple_keyboard/thirdparty/ringBuffer/include"
+    - "-I=F:/cmake_study/simple_keyboard/thirdparty/EventScheduling/include"
+    - "-I=F:/cmake_study/simple_keyboard/thirdparty/c-linked-list/include"
+    - "-I=F:/cmake_study/simple_keyboard/thirdparty/debounce/include"
+    - "-I=F:/cmake_study/simple_keyboard/thirdparty/memguard/include"
+    - "-isystem=F:/mingw64/include"
+    - "-isystem=F:/mingw64/x86_64-w64-mingw32/include"
+    - "-isystem=F:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include"

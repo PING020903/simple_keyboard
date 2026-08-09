@@ -1,0 +1,28 @@
+# CMake 构建输出
+build/
+
+# 缓存目录
+.cache/
+.lingma/
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+Thumbs.db
+.DS_Store
